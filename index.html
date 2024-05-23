@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>Shop Farm Animals</title>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">SHOP FARM ANIMALS</p>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+        </div>
+        <button class="signupbutton" onclick="window.open('signup.html', '_blank')">Login/Signup</button>
+    </div>
+    <div class="container">
+        <div class="card">
+            <label for="product">Product</label>
+            <input type="text" name="product" id="product"/>
+            <label for="image-url">Image Url</label>
+            <input type="text" name="image-url" id="image-url"/>
+            <label for="price">Price</label>
+            <input type="number" name="price" id="price"/>
+            <label for="quantity">Quantity</label>
+            <input type="number" name="quantity" id="quantity"/>
+            <button class="button" id="btn">Add</button>
+        </div>
+        <div id="root"></div>
+
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div id="cartItem">
+
+            </div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+            <div class="checkout">
+                <button class="checkoutButton" onclick="checkout()">checkout</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="message">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

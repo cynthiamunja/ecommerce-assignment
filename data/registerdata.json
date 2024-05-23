@@ -1,0 +1,52 @@
+{
+  "signup": [
+    {
+      "id": "ea77",
+      "email": "abc@gmail.com",
+      "username": "abc",
+      "password": "12345"
+    }
+  ],
+  "products": [
+    {
+      "id": "234",
+      "title": "cows",
+      "image": "https://images.pexels.com/photos/162240/bull-calf-heifer-ko-162240.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 6,
+      "price": 12334
+    },
+    {
+      "id": "162",
+      "title": "horse",
+      "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 10,
+      "price": 1234
+    },
+    {
+      "id": "97",
+      "title": "cat",
+      "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 11,
+      "price": 1212
+    }
+  ],
+  "cart": [
+    {
+      "id": "234",
+      "title": "cows",
+      "image": "https://images.pexels.com/photos/162240/bull-calf-heifer-ko-162240.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "price": 12334
+    },
+    {
+      "id": "162",
+      "title": "horse",
+      "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "price": 1234
+    }
+  ],
+  "checkout": [
+   
+  ]
+}

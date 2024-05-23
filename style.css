@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  height: 100px;
+  width: 70%;
+  background-color: lightcoral;
+  border-radius: 3px;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.cart {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 3px;
+  width: 80px;
+}
+
+.fa-solid {
+  color: goldenrod;
+}
+
+.cart p {
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: goldenrod;
+  color: white;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+#root {
+  width: 60%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* Card styles */
+.card {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #eee;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.card input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.card button:hover {
+  background-color: #333;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+.head {
+  background-color: goldenrod;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
+
+/* Cart item styles */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.cart-item img {
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+  margin-right: 10px;
+}
+
+.cart-item h3,
+.cart-item p {
+  margin-bottom: 5px;
+}
+
+.cart-item input {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.fa-trash:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+/* Product styles */
+.animals {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.animals img {
+  width: 70%;
+}
+
+.animals h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.animals p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.addtocart {
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 90px;
+  margin-top: 20px;
+}
+
+.update {
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.remove {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 50%;
+}
+
+.form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form button:hover {
+  background-color: #218838;
+}
+
+.form p {
+  margin-top: 15px;
+  color: #666;
+}
+
+.form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
