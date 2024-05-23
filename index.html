@@ -10,10 +10,7 @@
 <body>
     <div class="header">
         <p class="logo">SHOP FARM ANIMALS</p>
-        <div class="cart">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p id="count">0</p>
-        </div>
+       <button class="opencart"> <a href="cart.html">go to cart</a></button>
         <button class="signupbutton" onclick="window.open('signup.html', '_blank')">Login/Signup</button>
     </div>
     <div class="container">
@@ -28,27 +25,14 @@
             <input type="number" name="quantity" id="quantity"/>
             <button class="button" id="btn">Add</button>
         </div>
-        <div id="root"></div>
+        
 
-        <div class="sidebar">
-            <div class="head"><p>My Cart</p></div>
-            <div id="cartItem">
-
-            </div>
-            <div class="foot">
-                <h3>Total</h3>
-                <h2 id="total">$ 0.00</h2>
-            </div>
-            <div class="checkout">
-                <button class="checkoutButton" onclick="checkout()">checkout</button>
-            </div>
-            
-        </div>
+        
         
     </div>
-    <div id="message">
+    <div id="root"></div>
 
-    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>

@@ -32,13 +32,6 @@
   ],
   "cart": [
     {
-      "id": "234",
-      "title": "cows",
-      "image": "https://images.pexels.com/photos/162240/bull-calf-heifer-ko-162240.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "quantity": 1,
-      "price": 12334
-    },
-    {
       "id": "162",
       "title": "horse",
       "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -47,6 +40,19 @@
     }
   ],
   "checkout": [
-   
+    {
+      "id": "162",
+      "title": "horse",
+      "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "price": 1234
+    },
+    {
+      "id": "162",
+      "title": "horse",
+      "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "price": 1234
+    }
   ]
 }
