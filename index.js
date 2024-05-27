@@ -8,9 +8,7 @@ const inputImage = document.getElementById('image-url');
 const inputPrice = document.getElementById('price');
 const inputQuantity = document.getElementById('quantity');
 const urlProduct = "http://localhost:3000/products";
-const urlcart = "http://localhost:3000/cart";
-const urlcheckout="http://localhost:3000/checkout"
- 
+
 addProductButton.addEventListener('click', addProduct);
  
 //function generateRandomId(length) {

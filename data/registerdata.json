@@ -35,8 +35,15 @@
       "id": "162",
       "title": "horse",
       "image": "https://images.pexels.com/photos/1996333/pexels-photo-1996333.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "quantity": 1,
+      "quantity": 2,
       "price": 1234
+    },
+    {
+      "id": "97",
+      "title": "cat",
+      "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "quantity": 1,
+      "price": 1212
     }
   ],
   "checkout": [

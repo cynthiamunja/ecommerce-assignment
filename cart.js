@@ -1,9 +1,9 @@
-const addProductButton = document.getElementById('btn');
-const inputTitle = document.getElementById('product');
-const inputImage = document.getElementById('image-url');
-const inputPrice = document.getElementById('price');
-const inputQuantity = document.getElementById('quantity');
-const urlProduct = "http://localhost:3000/products";
+//const addProductButton = document.getElementById('btn');
+//const inputTitle = document.getElementById('product');
+//const inputImage = document.getElementById('image-url');
+//const inputPrice = document.getElementById('price');
+//const inputQuantity = document.getElementById('quantity');
+//const urlProduct = "http://localhost:3000/products";
 const urlcart = "http://localhost:3000/cart";
 const urlcheckout="http://localhost:3000/checkout"
 let cart = [];
@@ -11,7 +11,7 @@ let cart = [];
 async function addToCart(productId) {
     console.log('Products:', products); // Debugging line
     console.log('ProductId:', productId); // Debugging line
- 
+    productId = String(productId);
     const selectedProduct = products.find(prod => prod.id === productId);
  
     if (selectedProduct) {
@@ -69,12 +69,10 @@ async function getCartItems() {
  
 getCartItems();
  
-const cartContainer = document.getElementById('cartItem');
+const cartContainer = document.querySelector('.cartItem');
  
 function updateCart() {
-    if(!cartContainer){
-        console.log("cart container not found")
-    } else{ 
+    
     cartContainer.innerHTML = '';
     cart.forEach(item => {
         let cartItemDiv = document.createElement('div');
@@ -95,7 +93,7 @@ function updateCart() {
  
     const cartCount = document.getElementById('count');
     cartCount.innerText = cart.reduce((acc, item) => acc + item.quantity, 0);
-}
+
 }
  
 async function removeFromCart(productId) {
